@@ -13,43 +13,43 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
    <header>
     <a href="#"><img src="imagens/logo-unemat-branco.svg" alt="Logo Unemat" width="250px">
-    <h1 class="font-cabecalho">Projeto Celeiro</h1>
+    <h1 class="font-cabecalho">PROJETO CELEIRO</h1>
 </a>
     <nav> <!-- Menu -->
-       <a href="#">Inicio</a>
-       <a href="#">O Celeiro</a>
-       <a href="#">Projetos</a>
-       <a href="#">Aplicações</a>
-       <a href="#">Parcerias</a>
-       <a href="#">Login</a> 
+       <a href="#">INICIO</a>
+       <a href="#">O CELEIRO</a>
+       <a href="#">PROJETOS</a>
+       <a href="#">APLICAÇÕES</a>
+       <a href="#">PARCERIAS</a>
+       <a href="#">LOGIN</a> 
     </nav>
    </header> 
-
+   <section id="carrossel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/eventos/imagem1.png" class="d-block" alt="Evento1">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/eventos/imagem2.png" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/eventos/imagem3.png" class="d-block" alt="...">
+          </div>
+        </div>
+      </div>
+         
+</section>
    <main>
     
- <section id="carrossel">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="imagens/eventos/evento(400).jpg" class="d-block w-50" alt="Evento1">
-              </div>
-              <div class="carousel-item">
-                <img src="imagens/eventos/evento(400)azul.jpg" class="d-block w-50" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="imagens/eventos/evento(400)rosa.jpg" class="d-block w-50" alt="...">
-              </div>
-            </div>
-          </div>
-             
-    </section>
+
 
     <section id="conteudo">
         
         <h1>Projeto Celeiro de Software e Hardware</h1>
         <p>O Celeiro de Software e Hardware, é um projeto criado pelo Professor Mestre Alexandre Berndt, onde o mesmo observo que a distância do município de Barra do Bugres-MT dos polos de Tecnologia da Informação dificulta a realização do estágio curricular, previsto no projeto pedagógico do curso de Ciência da Computação, desta maneira, a proposta do Celeiro de Hardware e Software foi desenvolvida, tendo como objetivo oferecer aos acadêmicos de Ciência da Computação mais uma possibilidade de participarem de um ambiente de desenvolvimento e produção de software e dispositivos de hardware, dentro do campus de Barra do Bugres.</p>
         <picture >
-            <source media="(max-width:600)" srcset="./imagens/programador-(400).jpg" type="image/jpg">
+            <source media="(min-width:600)" srcset="./imagens/programador-(400).jpg" type="image/jpg">
             
             <img class="main" src="imagens/programador-650.jpg" alt="Imagem Programador Pequena">
         </picture>
@@ -58,19 +58,23 @@
     </section>
 
     <section id="aside">
-        <h1>Atalhos</h1>
-        <ul>
-            <li><a href="https://unemat.br/">Unemat</a>
-            <li><a href="http://bbg.unemat.br/">Unemat Barra do Bugres</a>
-            <li><a href="https://sigaa.unemat.br/sigaa/verTelaLogin.do;jsessionid=35FAB2E4669B6A89DE99269CBAA3DDFD.srv1inst1">SIGAA</a>
-            <li><a href="https://www.facebook.com/caccunemat/?locale=pt_BR">CACC</a>
-            <li><a href="https://periodicos.unemat.br/index.php/zeiki">ZEIKI - REVISTA INTERDICIPLINAR DA UNEMAT BARRA DO BUGRES</a>
-        </ul>
-
+        <div class="atalho">
+            <!-- <h3>Atalhos</h3> -->
+          
+                <ul>
+                    <li><a href="https://unemat.br/" target="_blank">UNEMAT</a>
+                    <li><a href="http://bbg.unemat.br/" target="_blank">UNEMAT - BARRA DO BUGRES</a>
+                    <li><a href="https://sigaa.unemat.br/sigaa/verTelaLogin.do;jsessionid=35FAB2E4669B6A89DE99269CBAA3DDFD.srv1inst1" target="_blank">SIGAA</a>
+                    <li><a href="https://www.facebook.com/caccunemat/?locale=pt_BR" target="_blank">CACC</a>
+                    <li><a href="https://periodicos.unemat.br/index.php/zeiki" target="_blank">ZEIKI - REVISTA INTERDICIPLINAR DA UNEMAT BARRA DO BUGRES</a>
+                </ul>
+        </div>
     </section>
-    <div class="faleconosco">
+   </main>
+
+   <footer>
     <section id="fale-conosco">
-        <h1>Fale com o Projeto Celeiro</h1> <hr><br>
+        <h1>Fale com o Projeto Celeiro</h1> <hr>
         <h2>Endereço</h2> 
         <address>
             Rua A, s/nº, Bairro São Raimundo <br>
@@ -83,18 +87,12 @@
             (065) 3361-6450 <br>
             (065) 9 9972-2833
         </p>
-        <hr>
-        <div class="formulario">
-            h3
-        </div>
+         
     </section>
-</div>
-   </main>
-   <footer>
-    
-
+    <hr> 
     <p> © Gabrielly Héber Azevedo da Cruz, 2023 </p>
     <p>Campus Universitário Dep. Renê Barbour - Barra do Bugres-MT.</p>
 </footer>
+
 </body>
 </html>

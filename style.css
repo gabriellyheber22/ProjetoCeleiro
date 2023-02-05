@@ -3,11 +3,22 @@
     padding: 0px;
     margin: 0px;
 }
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor01:#c1f0b8;
+    --cor02:#60A154;
+    --cor03:#9daa9b80;
+    --cor04:#5D6E5A;
+    --cor05:#33552C;
+}
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    
+    font-family: 'Bebas Neue', cursive;
     font-weight: lighter;
     color: #222222;
-    font-size: 1.3rem;
+    font-size: 1.5em;
     background-color:#fafafa ;
     width: 100%;
     
@@ -16,16 +27,18 @@ body{
 
 header{ /*Estilização do Cabeçalho*/
     color: white;
-    background-color: #33552C;
-    padding: 10px;
+    background-color: var(--cor05);
+    padding: 10px 50px;
+    margin: auto;
    
 }
 
 
 .font-cabecalho{
-font-size: 1.8rem;
-display: inline;
-padding: 10px 30px 10px 30px;
+font-size: 1.5em;
+display: inline; 
+font-weight:lighter;
+ padding: 0px 70px ; 
 
 }
 header>a{
@@ -39,8 +52,11 @@ nav{
 nav>a{ /*Estilização do itens do MENU*/
     color: white;
     text-decoration: none; 
-    padding: 15px;
-    margin-right: 12px;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0px 15px;
+    
+    
    
 
 }
@@ -57,12 +73,22 @@ main{
     text-align: justify;
     min-width: 300px;
     max-width: 1250px;
-    padding: 20px;
+    padding: 10px 20px 20px 20px;
     background-color: white;
     box-shadow: 1px 7px 5px rgba(0, 0, 0, 0.226);
        
 }
-
+section#carrossel{
+    margin: 0px;
+     background-image: linear-gradient(to bottom,  rgba(27, 27, 27, 0.685), rgba(61, 61, 61, 0.637)); 
+    min-height: 450px;
+   
+}
+section#carrossel img{
+    display: block;
+    margin: auto;
+    padding: 0px;  
+}
  
 
 
@@ -79,36 +105,52 @@ section#conteudo{
 }
 section#conteudo h1{
     text-align: center;
+    
    
 }
-section#fale-conosco{
-    background-color:  #33552C;
-    color: white;
+div.atalho{
     display: block;
-    margin-left: auto;
-    padding: 10px;
-    min-width: 300px;
-    max-width: 900px;
-    border-radius: 10px;
+   
+    position: relative;
+    /* margin-top: 5%; */
+    
 }
-/* .faleconosco{
-    margin: -20px;
-} */
-
+section#aside h3{
+    text-align: center;
+}
 section#aside{
-    background-color: #e6e6e6ab;
+    
     width: 300px;
-    display: block;
+    position: absolute; 
+    top: 600px;
+   
+    
+   
     }
+
+section#aside ul{
+    
+    padding: 0px 10px;
+    
+}
 section#aside li{
     list-style: none;
     padding: 10px 0px;
-    border: 1px solid black;
+    margin: 5px 0px;
+    background-color:  var(--cor02) ;
     text-align: center;
+    font-weight: bolder;
+    font-size: 1.2em;
+    
 
 }
+section#aside a{
+    text-decoration: none;
+    color: white;
+}
 section#aside li:hover{
-    background-color: #bbbbbbab;
+    background-color: var(--cor05) ;
+    box-shadow: 1px 2px 7px black;
 }
 
 main p{
@@ -123,13 +165,25 @@ img.main{
 }
 footer{
     color: white;
-    background-color: #33552C;
-    margin-top: 10px;
+    background-color: var(--cor05);
+   
     
 }
+
 footer>p{
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+   
+}
+section#fale-conosco{
+    background-color:  #33552C;
+    color: white;
+    padding: 0px 20px;
+   
+   
+  
 }
 
 
