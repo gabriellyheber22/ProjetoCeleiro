@@ -89,7 +89,6 @@ section#carrossel img{
     margin: auto;
     padding: 0px;  
 }
- 
 
 
 section#conteudo{
@@ -123,8 +122,6 @@ section#aside{
     width: 300px;
     position: absolute; 
     top: 600px;
-   
-    
    
     }
 
@@ -181,9 +178,9 @@ section#fale-conosco{
     background-color:  #33552C;
     color: white;
     padding: 0px 20px;
-   
-   
-  
+
 }
+
+
 
 
