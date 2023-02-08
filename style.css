@@ -38,7 +38,7 @@ header{ /*Estilização do Cabeçalho*/
 font-size: 1.5em;
 display: inline; 
 font-weight:lighter;
- padding: 0px 70px ; 
+ margin: 0px 70px ; 
 
 }
 header>a{
@@ -56,12 +56,11 @@ nav>a{ /*Estilização do itens do MENU*/
     font-size: 1em;
     padding: 0px 15px;
     
-    
-   
 
 }
 nav>a:hover{ /*Efeito ao passar o mouse: MENU*/
     text-decoration: underline;/*Sublinhado ao passar o mouse em cima*/
+    color: white;
 
 }
 h1{
@@ -106,6 +105,9 @@ section#conteudo h1{
     text-align: center;
     
    
+}
+section#conteudo p{
+font-size: 1.5vw;
 }
 div.atalho{
     display: block;
